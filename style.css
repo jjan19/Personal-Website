@@ -1,0 +1,435 @@
+@font-face{
+    font-family: Handwriting;
+    src: url(RubikDoodleShadow-Regular.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Handwriting;
+    white-space:nowrap;    
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    min-height: 3000px;
+    min-width: 1900px;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute; 
+    overflow-x: hidden;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    position: fixed;
+    left: 100px;
+    z-index: 9999;
+}
+.banner{
+    width: 1700px;
+    min-height: 200px;
+}
+.logo{
+    width: 350px;
+    min-height: 350px;
+    position: absolute; 
+    top: -35px;
+    left: 675px;
+}
+.anchor1{
+    position: absolute;
+    top: 110px;
+    left: 60px; 
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Handwriting;
+    text-decoration: none;  
+    color: #2E2822;
+    transition: all 0.2s ease 0s;
+}
+.anchor1:hover{
+    position: absolute; 
+    top: 110px;
+    left: 60px; 
+    font-size: 55px;
+    font-weight: 600;
+    font-family: Handwriting;
+    color: #FFD93D;
+    transition: all 0.2s ease 0s;
+}
+.anchor2{
+    position: absolute; 
+    top: 110px;
+    left: 400px; 
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Handwriting;
+    text-decoration: none;
+    color: #2E2822;
+    transition: all 0.2s ease 0s;
+}
+.anchor2:hover{
+    position: absolute; 
+    top: 110px;
+    left: 400px; 
+    font-size: 55px;
+    font-weight: 600;
+    font-family: Handwriting;
+    text-decoration: none;
+    color: #FFD93D;
+    transition: all 0.2s ease 0s;
+}
+.anchor3{
+    position: absolute; 
+    top: 110px;
+    left: 980px; 
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Handwriting;
+    text-decoration: none;
+    color: #2E2822;
+    transition: all 0.2s ease 0s;
+}
+.anchor3:hover{
+    position: absolute; 
+    top: 110px;
+    left: 980px; 
+    font-size: 55px;
+    font-weight: 600;
+    font-family: Handwriting;
+    text-decoration: none;
+    color: #FFD93D;
+    transition: all 0.2s ease 0s;
+}
+.anchor4{
+    position: absolute; 
+    top: 110px;
+    left: 1300px; 
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Handwriting;
+    text-decoration: none;
+    color: #2E2822;
+    transition: all 0.2s ease 0s;
+}
+.anchor4:hover{
+    position: absolute; 
+    top: 110px;
+    left: 1300px; 
+    font-size: 55px;
+    font-weight: 600;
+    font-family: Handwriting;
+    text-decoration: none;
+    color: #FFD93D;
+    transition: all 0.2s ease 0s;
+}
+.content{
+    width: 100;
+    margin: auto;
+    position: absolute;
+    top: 300px;
+    left: 470px; 
+}
+h1{
+    font-weight: 1000;
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    color: #2E2822;  
+}
+.intro{
+    width: 1000px;
+    min-height: 200px;
+}
+p{
+    font-size: 22px;
+    font-family: monospace;
+    position: relative;
+    color: #2E2822;
+    text-align: center;
+    top: -115px;
+}
+
+.aboutme{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 700px;
+    left: 470px;
+}
+
+.card1{
+    width: 800px;
+    min-height: 600px;
+    left: -400px;
+    position: relative;
+}
+
+.card2{
+    width: 800px;
+    min-height: 600px;
+    left: -250px;
+    position: relative;
+}
+
+h3{
+    top: 1200px;
+    position: relative;
+}
+
+.resources{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 1500px;
+    left: 140px;
+}
+
+.resources ol li{
+    list-style: none;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.resources ol li h2{
+    text-decoration: none;
+    font-size: 70px;
+    margin: 0px 80px 80px 0px;
+    color: #2E2822;
+}
+
+.resources ol li button{
+    text-decoration: none;
+    font-size: 50px;
+    margin: 0px 170px 50px 0px;
+    left: 20px;
+    
+}
+
+button{
+    width: 400px;
+    padding: 15px 0;
+    border-radius: 80px;
+    border: 6px solid #2E2822;
+    background: #BC9678;
+    color: #2E2822; 
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+
+button:hover{
+    background: #FFD93D;
+    width: 415px;
+    letter-spacing: 5px;
+    border-radius: 100px;
+    transition: all 0.5s ease 0s;
+}
+
+h4{
+    top: 1725px;
+    position: relative;
+}
+
+.contactme{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 2000px;
+}
+
+.form{
+    width: 800px;
+    min-height: 600px;
+    left: 300px;
+    top: -160px;
+    position: relative; 
+}
+
+.info{
+    width: 400px;
+    min-height: 600px;
+    left: 350px;
+    top: 25px;
+    position: relative; 
+}
+
+h5{
+    font-size: 60px;
+    font-weight: 600;
+    left: 425px;
+    top: 100px;
+    position: absolute;
+    color: #2E2822;
+}
+
+h6{
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    left: 1225px;
+    top: 100px;
+    position: absolute;
+    color: #2E2822;
+}
+
+.forminfo{
+    position: absolute;
+    width: 50%;
+    color: #2E2822;
+    font-size: 30px;
+    font-weight: 600;
+    left: 350px;
+    top: 200px;
+    margin-left: 20px;
+}
+
+.forminfo2{
+    position: absolute;
+    color: #2E2822;
+    font-size: 30px;
+    font-weight: 600;
+    left: 700px;
+    top: 200px;
+    margin-left: 20px;
+}
+
+.forminfo3{
+    position: absolute;
+    width: 100%;
+    color: #2E2822;
+    font-size: 30px;
+    font-weight: 600;
+    left: 350px;
+    top: 300px;
+    margin-left: 20px;
+}
+
+.forminfo4{
+    position: absolute;
+    width: 100%;
+    color: #2E2822;
+    font-size: 30px;
+    font-weight: 600;
+    left: 700px;
+    top: 300px;
+    margin-left: 20px;
+}
+
+.forminfo5{
+    position: absolute;
+    width: 100%;
+    color: #2E2822;
+    font-size: 30px;
+    font-weight: 600;
+    left: 350px;
+    top: 400px;
+    margin-left: 20px;
+}
+
+.forminfo6{
+    position: absolute;
+    width: 100%;
+    color: #2E2822;
+    font-size: 60px;
+    font-weight: 600;
+    left: 900px;
+    top: 540px;
+}
+
+input{
+    font-family: monospace;
+    background: transparent;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+textarea{
+    display: flex;
+    font-family: monospace;
+    background: transparent;
+    font-size: 20px;
+    resize: none;
+    padding: 10px;
+    min-height: 150px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+input[type="submit"]{
+    font-family: Handwriting;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 80px;
+    color: #2E2822;
+    background: #BC9678;
+    width: 150px;
+    transition: all 0.5s ease 0s;
+}
+
+input[type="submit"]:hover{
+    font-family: Handwriting;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 80px;
+    color: #2E2822;
+    background: #FFD93D;
+    width: 150px;
+    transition: all 0.5s ease 0s;
+}
+
+.mail{
+    position: absolute;
+    top: 275px;
+}
+
+.phone{
+    position: absolute;
+    top: 350px;
+}
+
+h7 a{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: monospace;
+    position: absolute;
+    top: 290px;
+    left: 1270px;
+    color: #2E2822;
+    transition: all 0.5s ease 0s;
+}
+
+h7 a:hover{
+    font-size: 21px;
+    font-weight: 600;
+    font-family: monospace;
+    position: absolute;
+    top: 290px;
+    left: 1275px;
+    color: #FFD93D;
+    transition: all 0.5s ease 0s;
+}
+
+h8{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: monospace;
+    position: absolute;
+    top: 365px;
+    left: 1270px;
+    color: #2E2822;
+}
+
+
+
+
+
+
+
